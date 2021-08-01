@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="256.0px"
+   height="256.0px"
+   viewBox="0 0 256.0 256.0"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   inkscape:export-filename="C:\Users\RodrigoBestardPino\projects\bepi\logo.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2051"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="0.99775533"
+     inkscape:cx="224.00281"
+     inkscape:cy="168.87908"
+     inkscape:window-width="1366"
+     inkscape:window-height="745"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2114" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2046">
+    <rect
+       x="100"
+       y="120"
+       width="90"
+       height="90"
+       id="rect8767" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g53425"
+       style="stroke:none"
+       inkscape:export-filename="C:\Users\RodrigoBestardPino\projects\bepi\logo.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         id="rect2235"
+         style="stroke:none;stroke-width:2.59042"
+         d="m 1.29521,1.29521 h 253.40956 v 253.4096 H 1.29521 Z" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:109.787px;line-height:1.25;font-family:System-ui;-inkscape-font-specification:'System-ui Bold';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.54466"
+         x="12.262623"
+         y="167.82996"
+         id="text12384"><tspan
+           id="tspan12382"
+           x="12.262623"
+           y="167.82996"
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:109.787px;font-family:System-ui;-inkscape-font-specification:'System-ui Bold';fill:#ffffff;fill-opacity:1;stroke-width:3.54466;stroke:none">BePi</tspan></text>
+    </g>
+  </g>
+</svg>
