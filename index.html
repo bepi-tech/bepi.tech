@@ -2,15 +2,421 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="BePi" />
+    <meta
+      name="keywords"
+      content="bepi, software, business, blog, business card, creative, creative portfolio, personal, portfolio, professional, responsive, vcard, rbestardpino, rodrigo bestard pino"
+    />
+
     <title>BePi</title>
-
-    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon" />
-
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <!--favicon-img-->
+    <link rel="icon" type="image/png" href="images/logo.png" />
+    <!--favicon-img-->
+    <!--main css file should not be removed -->
+    <link rel="stylesheet" href="css/index.css" />
+    <!--main css file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
   </head>
   <body>
-    <img src="assets/img/logo.png" alt="" />
+    <!--contains all the div-->
+    <div id="all">
+      <!--mouse  follower-->
+      <!-- <div class="cursor"></div> -->
+      <!--mouse  follower-->
+      <!--loader-->
+      <div id="loader"><span class="color">Be</span>Pi</div>
+      <!--loader-end-->
+      <!--link-screen-->
+      <div id="breaker"></div>
+      <div id="breaker-two"></div>
+      <!--link-screen-->
+      <!--Main-Section-->
+      <!--Navigator-fullscreen-->
+      <div id="navigation-content">
+        <div class="logo">
+          <img src="images/logo-transparent.png" alt="logo" />
+        </div>
+        <div class="navigation-close">
+          <span class="close-first"></span>
+          <span class="close-second"></span>
+        </div>
+        <div class="navigation-links">
+          <a href="#" data-text="HOME" id="home-link">HOME</a>
+          <a href="#" data-text="ABOUT" id="about-link">ABOUT</a>
+          <a href="#" data-text="MADE BY US" id="blog-link">MADE BY BEPI</a>
+          <a href="#" data-text="CONTRIBUTE" id="contact-link">CONTRIBUTE</a>
+        </div>
+      </div>
+      <!--Navigator-Fullscreen END-->
+      <!--Home Page-->
+      <!--Menubar-->
+      <div id="navigation-bar">
+        <img src="images/logo-transparent.png" alt="logo" />
+        <div class="menubar">
+          <span class="first-span"></span>
+          <span class="second-span"></span>
+          <span class="third-span"></span>
+        </div>
+      </div>
+      <!--Menubar End-->
+      <!--Header-->
+      <div id="header">
+        <div id="particles"></div>
+        <!--Social Media Links-->
+        <div class="social-media-links">
+          <a target="_blank" href="https://www.instagram.com/bepi.tech/"
+            ><img
+              src="images/instagram logo.png"
+              class="social-media"
+              alt="instagram-logo" /></a
+          ><!--Your instagram homepage link inser in place of "#"-->
+          <!-- <a href="#"><img src="images/facebook logo.png" class="social-media" alt="facebook-logo"></a>
+                <a href="#"><img src="images/linkedin logo.png" class="social-media" alt="linkedin-logo"></a>
+                <a href="#"><img src="images/twitter logo.png" class="social-media" alt="twitter-logo"></a> -->
+        </div>
+        <!--Social Media Links end-->
+        <div class="header-content">
+          <div class="header-content-box">
+            <div class="firstline"><span class="color">Be</span>Pi</div>
+            <div class="secondline">
+              We are
+              <span
+                class="txt-rotate color"
+                data-period="1200"
+                data-rotate='[" Open-Sourcerers", " Developers."]'
+              ></span>
+              <span class="slash">_</span>
+            </div>
+            <div class="contact">
+              <a href="Mailto:root@bepi.tech"
+                ><img src="images/mail.png" alt="email-pic" class="contactpic"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <!--header image-->
+        <!-- <div class="header-image">
+            <img src="images/man.jpg" alt="logo">
+            </div> -->
+        <!--header image end-->
+      </div>
+      <!--Header End-->
+      <!--HomePage End-->
+      <!--Main-Section End-->
+      <!--about-->
+      <div id="about">
+        <div class="color-changer">
+          <div class="color-panel">
+            <img src="images/gear.png" alt="" />
+          </div>
+          <div class="color-selector">
+            <div class="heading">Custom Colors</div>
+            <div class="colors">
+              <ul>
+                <li>
+                  <a href="#0" class="color-red" title="color-red"></a>
+                </li>
+                <li>
+                  <a href="#0" class="color-purple" title="color-purple"></a>
+                </li>
+                <li>
+                  <a href="#0" class="color-malt" title="color-malt"></a>
+                </li>
+                <li>
+                  <a href="#0" class="color-green" title="color-green"></a>
+                </li>
+                <li>
+                  <a href="#0" class="color-blue" title="color-blue"></a>
+                </li>
+                <li>
+                  <a href="#0" class="color-orange" title="color-orange"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!--about content-->
+        <div id="about-content">
+          <div class="about-header">
+            About <span class="color">us</span>
+            <span class="header-caption"
+              >Get to know <span class="color"> us</span></span
+            >
+          </div>
+          <div class="about-main">
+            <div class="about-first-paragraph wow">
+              <!--about description-->
+              <span class="about-first-line">
+                We are a group of talented
+                <span class="color"> software engineers</span>
+                based in Buenos Aires, Argentina
+              </span>
+              <br />
+              <span class="about-second-line"
+                >With 4+ years of experience builidng software, we have acquired
+                the skills and knowledge necessary to make the projects we
+                want.</span
+              >
+            </div>
+            <!--about picture-->
+            <div class="about-img">
+              <img src="images/about-image.jpg" alt="Your Image" />
+            </div>
+          </div>
+        </div>
+        <!--services start-->
+        <div id="services">
+          <div class="color-changer">
+            <div class="color-panel">
+              <img src="images/gear.png" alt="" />
+            </div>
+            <div class="color-selector">
+              <div class="heading">Custom Colors</div>
+              <div class="colors">
+                <ul>
+                  <li>
+                    <a href="#0" class="color-red" title="color-red"></a>
+                  </li>
+                  <li>
+                    <a href="#0" class="color-purple" title="color-purple"></a>
+                  </li>
+                  <li>
+                    <a href="#0" class="color-malt" title="color-malt"></a>
+                  </li>
+                  <li>
+                    <a href="#0" class="color-green" title="color-green"></a>
+                  </li>
+                  <li>
+                    <a href="#0" class="color-blue" title="color-blue"></a>
+                  </li>
+                  <li>
+                    <a href="#0" class="color-orange" title="color-orange"></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!--services header-->
+          <div class="services-heading wow">
+            <span class="color">Our</span> foundations
+          </div>
+          <!--services header end-->
+          <!--services content-->
+          <div class="services-content">
+            <div class="service-one service wow">
+              <div class="service-img">
+                <img src="images/coding.png" alt="service-one" />
+              </div>
+              <div class="service-description">
+                <h2>Open Source</h2>
+                <p>
+                  Almost all of our products are open source, so everyone can
+                  contribute to them.
+                </p>
+              </div>
+            </div>
+            <div class="service-two service wow">
+              <div class="service-img">
+                <!-- TODO: change image -->
+                <img src="images/free.png" alt="service-two" />
+              </div>
+              <div class="service-description">
+                <h2>Free</h2>
+                <p>
+                  All of our current products are completely free, so everyone
+                  can use them.
+                </p>
+              </div>
+            </div>
+            <div class="service-three service wow">
+              <div class="service-img">
+                <img src="images/bulb.png" alt="service-three" />
+              </div>
+              <div class="service-description">
+                <h2>Intuitive Desing</h2>
+                <p>
+                  Every product we make is carefully designed so everyone can
+                  understand how to use it.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--services content end-->
+      </div>
+    </div>
+    <!--about end-->
+
+    <!--made by bepi-->
+    <div id="blog">
+      <div class="color-changer">
+        <div class="color-panel">
+          <img src="images/gear.png" alt="" />
+        </div>
+        <div class="color-selector">
+          <div class="heading">Custom Colors</div>
+          <div class="colors">
+            <ul>
+              <li>
+                <a href="#0" class="color-red" title="color-red"></a>
+              </li>
+              <li>
+                <a href="#0" class="color-purple" title="color-purple"></a>
+              </li>
+              <li>
+                <a href="#0" class="color-malt" title="color-malt"></a>
+              </li>
+              <li>
+                <a href="#0" class="color-green" title="color-green"></a>
+              </li>
+              <li>
+                <a href="#0" class="color-blue" title="color-blue"></a>
+              </li>
+              <li>
+                <a href="#0" class="color-orange" title="color-orange"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="blog-header">
+        Made by BePi
+        <span class="header-caption"
+          >Our <span class="color"> projects</span></span
+        >
+      </div>
+      <div class="blog-content">
+        <div class="blogs">
+          <a href="https://openbackups.bepi.tech/" target="_blank">
+            <div class="img">
+              <img src="images/madebybepi/openbackups.png" alt="blog-one" />
+              <div class="blog-date">6 July, 2021</div>
+            </div>
+            <div class="blog-text">
+              <h3>Open Backups</h3>
+              <p>
+                Open Backups is an open-source lightweight desktop application
+                made by BePi. It allows you to easily manage automatic and
+                recurrent backups for all your files.
+              </p>
+            </div></a
+          >
+        </div>
+        <div class="blogs">
+          <a href="https://melibot.bepi.tech/" target="_blank">
+            <div class="img">
+              <img src="images/madebybepi/melibot.png" alt="blog-two" />
+              <div class="blog-date">10 April, 2021</div>
+            </div>
+            <div class="blog-text">
+              <h3>MeliBot</h3>
+              <p>
+                A simple bot that allows you to make searches in Mercado Libre
+                inside Discord.
+              </p>
+            </div></a
+          >
+        </div>
+        <div class="blogs">
+          <a href="https://link.bepi.tech/" target="_blank">
+            <div class="img">
+              <img
+                src="images/madebybepi/link.bepi.tech.png"
+                alt="blog-three"
+              />
+              <div class="blog-date">31 July, 2021</div>
+            </div>
+            <div class="blog-text">
+              <h3>link.bepi.tech</h3>
+              <p>
+                link.bepi.tech is an open-source and easy to use URL shortener.
+              </p>
+            </div></a
+          >
+        </div>
+      </div>
+    </div>
+    <!--made by bepi end-->
+    <!--contact-->
+    <div id="contact">
+      <div class="color-changer">
+        <div class="color-panel">
+          <img src="images/gear.png" alt="" />
+        </div>
+        <div class="color-selector">
+          <div class="heading">Custom Colors</div>
+          <div class="colors">
+            <ul>
+              <li>
+                <a href="#0" class="color-red" title="color-red"></a>
+              </li>
+              <li>
+                <a href="#0" class="color-purple" title="color-purple"></a>
+              </li>
+              <li>
+                <a href="#0" class="color-malt" title="color-malt"></a>
+              </li>
+              <li>
+                <a href="#0" class="color-green" title="color-green"></a>
+              </li>
+              <li>
+                <a href="#0" class="color-blue" title="color-blue"></a>
+              </li>
+              <li>
+                <a href="#0" class="color-orange" title="color-orange"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="contact-header">
+        Contribute <span class="color"> us</span>
+        <div class="contact-header-caption">
+          <span class="color"> Help</span> by donating
+        </div>
+      </div>
+      <div class="contact-content">
+        <!--Contact form-->
+        <div class="contact-form">
+          <div class="form-header">Argentina</div>
+          <a href="https://cafecito.app/bepi" rel="noopener" target="_blank"
+            ><img
+              srcset="
+                https://cdn.cafecito.app/imgs/buttons/button_6.png       1x,
+                https://cdn.cafecito.app/imgs/buttons/button_6_2x.png    2x,
+                https://cdn.cafecito.app/imgs/buttons/button_6_3.75x.png 3.75x
+              "
+              src="https://cdn.cafecito.app/imgs/buttons/button_6.png"
+              alt="Invitame un café en cafecito.app"
+          /></a>
+          <br /><br /><br />
+          <div class="form-header">Worldwide</div>
+          <script
+            type="text/javascript"
+            src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js"
+            data-name="bmc-button"
+            data-slug="bepi"
+            data-color="#BD5FFF"
+            data-emoji=""
+            data-font="Cookie"
+            data-text="Buy me a coffee"
+            data-outline-color="#000000"
+            data-font-color="#ffffff"
+            data-coffee-color="#FFDD00"
+          ></script>
+        </div>
+        <!--Contact form-->
+        <!--Contact information-->
+        <div class="contact-info">
+          <div class="contact-info-header">We appreciate your support!</div>
+        </div>
+      </div>
+      <!--Contact information end-->
+    </div>
+    <!--contact end-->
+    <!--all the divisions-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
